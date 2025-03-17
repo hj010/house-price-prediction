@@ -72,7 +72,7 @@ Used Python’s logging module to track API requests and errors.
 Usage Instructions
 
 Clone the repository:
-git clone https://github.com/yourusername/house-price-prediction.git
+git clone https://github.com/hj010/house-price-prediction.git
 
 Install dependencies:
 pip install -r requirements.txt
