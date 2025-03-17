@@ -1,0 +1,5 @@
+2025-03-17 18:41:22,640 - __main__ - ERROR - Error loading model: [Errno 2] No such file or directory: 'best_linear_model.pkl'
+2025-03-17 18:41:30,050 - __main__ - ERROR - Prediction error: 'NoneType' object has no attribute 'predict'
+2025-03-17 18:41:36,758 - __main__ - ERROR - Prediction error: 'NoneType' object has no attribute 'predict'
+2025-03-17 18:41:59,934 - __main__ - INFO - Model loaded successfully.
+2025-03-17 18:42:01,814 - __main__ - INFO - Prediction successful: 7987861.353627741
