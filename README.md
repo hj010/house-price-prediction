@@ -44,10 +44,10 @@ Built a REST API using Flask to predict house prices.
 The API accepts a JSON input and returns the predicted price.
 API Endpoint:
 
-POST http://<server_address>:5000/predict
+POST https://house-price-prediction-q7ri.onrender.com/predict 
 Sample Request:
 
-curl -X POST http://<server_address>:5000/predict \
+curl -X POST https://house-price-prediction-q7ri.onrender.com/predict  \
     -H "Content-Type: application/json" \
     -d '{
         "area": 7420,
