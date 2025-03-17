@@ -2,6 +2,7 @@ import logging
 from flask import Flask, request, jsonify
 import numpy as np
 import joblib
+import os
 
 app = Flask(__name__)
 
@@ -20,9 +21,13 @@ file_handler.setFormatter(formatter)
 # Add the handler to the logger
 logger.addHandler(file_handler)
 
+
+# Get the absolute path of the model file
+model_path = os.path.join(os.path.dirname(__file__), '../models/best_linear_model.pkl')
+
 # Load the model with error handling
 try:
-    model = joblib.load('../models/best_linear_model.pkl')
+    model = joblib.load(model_path)
     logger.info("Model loaded successfully.")
 except Exception as e:
     logger.error(f"Error loading model: {e}")
